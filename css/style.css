@@ -46,10 +46,13 @@ h3 {
   display: inline-block;
   width: 90%;
   padding: 3%;
-  border-bottom-width: 1%;
+  border-bottom-width: 1px;
   border-bottom-color: #000000;
+  margin: 1%;
 }
 
 .arrow {
   display: inline-block;
 }
+
+a:hover 
