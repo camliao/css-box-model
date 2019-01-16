@@ -21,14 +21,24 @@ nav {
   background-color: #000000;
 }
 
+h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  padding-top: 0.5rem;
+}
+
 .restaurant-list {
   padding-top: 3rem;
   width: 42rem;
 }
 
 .location {
-  width: 95%;
-  border: 1%;
+
 }
 
 .content {
@@ -36,8 +46,8 @@ nav {
   display: inline-block;
   width: 90%;
   padding: 3%;
-  border: 1%;
-  border-color: #000000;
+  border-bottom-width: 1%;
+  border-bottom-color: #000000;
 }
 
 .arrow {
