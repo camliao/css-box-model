@@ -33,8 +33,13 @@ nav {
 
 .content {
   padding: 10px 0 15px 15px;
+  display: inline-block;
+  width: 90%;
+  padding: 3%;
+  border: 1%;
+  border-color: #000000;
 }
 
 .arrow {
-  float: right;
+  display: inline-block;
 }
