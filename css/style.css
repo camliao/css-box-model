@@ -15,19 +15,19 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 10px 0 25px 25px;
   position: fixed;
   width: 42rem;
   background-color: #000000;
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: normal;
   padding-top: 0.5rem;
 }
@@ -38,21 +38,26 @@ h3 {
 }
 
 .location {
-
+  border-right: 0.1rem solid;
+  border-left: 0.1rem solid;
+  border-bottom: 0.1rem solid;
+  border-color: #919191;
 }
+
+a { text-decoration: none; }
+
+a:link { color: black; }
+a:hover { background-color: gray; }
+
 
 .content {
   padding: 10px 0 15px 15px;
   display: inline-block;
   width: 90%;
   padding: 3%;
-  border-bottom-width: 1px;
-  border-bottom-color: #000000;
   margin: 1%;
 }
 
 .arrow {
   display: inline-block;
 }
-
-a:hover 
