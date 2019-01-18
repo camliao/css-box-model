@@ -8,6 +8,7 @@ body {
   font-size: 10px;
 }
 
+
 .container {
   margin: 0 auto;
   width: 42rem;
@@ -44,10 +45,8 @@ h3 {
   border-color: #919191;
 }
 
-a { text-decoration: none; }
+.location:hover { background-color: darkgray; }
 
-a:link { color: black; }
-a:hover { background-color: gray; }
 
 
 .content {
